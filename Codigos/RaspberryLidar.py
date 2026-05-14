@@ -176,24 +176,24 @@ def graficar(theta, r, titulo):                                                 
 
 if __name__ == "__main__":
     
-    client = conectar_mqtt()
+    # client = conectar_mqtt()
 
     theta_suelo, r_suelo = generar_suelo()
     theta_rampa, r_rampa = generar_rampa()
     theta_escalera, r_escalera = generar_escalera()
     
-    # graficar(theta_suelo, r_suelo, "grafico")
-    # graficar(theta_rampa, r_rampa, "grafico")
-    # graficar(theta_escalera, r_escalera, "grafico")
+    graficar(theta_suelo, r_suelo, "grafico")
+    graficar(theta_rampa, r_rampa, "grafico")
+    graficar(theta_escalera, r_escalera, "grafico")
 
-    while True:
+    # while True:
         
-        n = random.randint(1, 3)
-        if n == 1:
-            publicar_lidar(client, "Suelo", theta_suelo, r_suelo)
-        elif n == 2:
-            publicar_lidar(client, "Rampa", theta_rampa, r_rampa)
-        else:
-            publicar_lidar(client, "Escalera", theta_escalera, r_escalera)
+    #     n = random.randint(1, 3)
+    #     if n == 1:
+    #         publicar_lidar(client, "Suelo", theta_suelo, r_suelo)
+    #     elif n == 2:
+    #         publicar_lidar(client, "Rampa", theta_rampa, r_rampa)
+    #     else:
+    #         publicar_lidar(client, "Escalera", theta_escalera, r_escalera)
         
-        time.sleep(0.2)
+    #     time.sleep(0.2)
