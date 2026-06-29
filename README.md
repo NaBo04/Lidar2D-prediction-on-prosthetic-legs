@@ -11,6 +11,7 @@
     - Modelos3D: Modelos diseñados para la implementación final de la muslera y la carcasa para la
         prótesis.
 
-# Link importante :rocket:
+# Links importantes :rocket:
 
     - Notion (Carta Gantt): https://www.notion.so/Proyecto-de-t-tulo-3273d8bd994380379207d7b755e2225a
+    - Drive (Videos): https://drive.google.com/drive/folders/1dMPfvoMqhFyon8SmyaXOXM7CERQkg4x7?usp=drive_link
